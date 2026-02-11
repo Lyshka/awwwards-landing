@@ -3,6 +3,7 @@ import About from "./components/About";
 import Hero from "./components/Hero";
 import { ScrollTrigger } from "gsap/all";
 import Navbar from "./components/Navbar";
+import Features from "./components/Features";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -12,6 +13,7 @@ const App = () => {
       <Navbar />
       <Hero />
       <About />
+      <Features />
     </main>
   );
 };
